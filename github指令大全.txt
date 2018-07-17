@@ -1,0 +1,53 @@
+git  
+	作为指令前缀 驱动 git 帮忙处理相应指令;
+git init 
+	初始化git;
+
+设置你的github属于谁;
+
+git config --global user.name "你的git名称"
+git config --global user.email "你的git验证邮箱"
+
+报错 : please tell me who you are; 
+
+git add 
+	把工作区文件放入暂存区中;
+
+	-A
+
+git status 
+	查看暂存区状态;
+
+git commit 
+	把暂存区的内容放进仓库中;
+
+git reflog
+        查看 commit 创建的版本哈希值;
+
+git reset --hard 哈希值;
+
+	版本回溯; 
+
+git remote add origin 你的仓库名
+
+给你的 远程仓库名改成别名;
+
+git push -u origin master;
+
+将本地仓库推送到远程端;
+
+git pull 
+
+拉去远端的代码直接到工作区;
+
+分支概念;
+
+分支是一个copy 原代码出来让你随意操作的工作区，此工作区与主工作区独立;
+
+git branch 创建分支; 分支命名一般为日期加上姓名;
+git checkout 切换分支; 切换到独立工作区更新你的版本;
+git merge   合并分支;  把分支合并到主分支;
+
+// dev     开发分支;
+// master  
+
